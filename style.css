@@ -1,23 +1,47 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+
+nav{
+    background-color: rgb(129, 184, 147);
 }
 nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav ul li {
-    margin: 0 20px;
+    display: inline-block;
+    margin: 5px 50px;
 }
 
 
-nav ul a {
+nav ul li a {
     text-decoration: none;
-    color: rgb(13, 95, 197);
+    color: tomato;
     font-size: 18px;
     font-weight: bold;
-    transition: color 0.3s ease-in-out;
+}
+#profile{
+    background-color: antiquewhite;
+    text-align: left;
+    padding: 10px;
+    width: 100px;
+    color: cadetblue;
+}
+#pro_img{
+    height: 75px;
+    width: 50px;
+    border: 2px solid grey;
+    border-radius: 100%;
+}
+#grettings{
+    color: brown;
+    text-align: right;
+    width: 1000px;
 }
